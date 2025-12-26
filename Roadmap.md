@@ -8,7 +8,9 @@ Confidentiality - Integrity - Availability
 
 ## 2. Networking Basics 
 
-- Protocols , OSI model and its layers , IP addresses and its type , DNS , HTTP/HTTPS , TCP/IP , UDP , WeBsite , Firewall 
+- Protocols , OSI model and its layers
+- IP addresses and its type , DNS , HTTP/HTTPS , TCP/IP , UDP 
+- Website Tech , Firewall 
 
 ## 3. Basics Hacking Tools and Processes 
 
