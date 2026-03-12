@@ -47,5 +47,57 @@ Confidentiality - Integrity - Availability
 - HTB CPTS 
 - OSCP
 
+## 6. Related Projects 
+### Beginner Projects
+
+***Network & Scanning***
+- Network Scanner – Build a Python tool using Scapy or Nmap to discover hosts and open ports on a local network
+- Packet Sniffer – Capture and analyze network traffic (great with Scapy/Wireshark)
+- Port Scanner – Clone of Nmap logic from scratch in Python
+
+***System & Linux***
+
+- Log Analyzer – Parse Linux system logs (/var/log) to flag suspicious activity
+- File Integrity Monitor – Hash files and alert when they change (like a mini Tripwire)
+- Firewall Rule Script – Automate iptables rules using Bash/Python
+
+***Web***
+
+- Basic Vulnerability Scanner – Test a local web app for open redirects, missing headers, etc.
+
+---
+### Intermediate Projects
+***Offensive***
+
+- Password Cracker – Build a dictionary/brute-force attack tool against hashed passwords (MD5, SHA)
+- Phishing Page (ethical lab) – Clone a login page in a controlled VM environment, capture creds locally
+- Custom Keylogger – Python keylogger for Windows/Linux (run only on your own machine)
+- Exploit a Vulnerable VM – Root a Metasploitable or TryHackMe/HackTheBox machine and document it
+
+***Defensive***
+
+- SIEM Lite – Collect logs from multiple sources and visualize alerts using ELK Stack (Elasticsearch, Logstash, Kibana)
+- Intrusion Detection System – Rule-based IDS using Snort or write your own with Python + Scapy
+- Honeypot – Set up a fake SSH server that logs attacker attempts (using Cowrie)
+
+---
+### Advanced Projects
+***Red Team***
+
+- Custom C2 (Command & Control) Framework – Build a basic reverse shell framework with encrypted comms
+- Malware Analysis Lab – Set up a sandbox (Cuckoo Sandbox) and analyze real malware samples safely
+- Buffer Overflow Exploit – Exploit a deliberately vulnerable C program, write your own shellcode
+
+***Blue Team***
+
+- Threat Intelligence Platform – Aggregate IOCs (IPs, hashes, domains) from open feeds (AlienVault OTX, abuse.ch) and automate lookups
+- Automated Incident Response – Script that detects anomalies and auto-blocks IPs via iptables or firewall APIs
+- Active Directory Attack & Defense Lab – Spin up a Windows AD environment, simulate attacks (Pass-the-Hash, Kerberoasting), then harden it
+
+***Cloud/AppSec***
+
+- Cloud Security Audit Tool – Audit AWS/GCP misconfigs (open S3 buckets, overly permissive IAM)
+- Web App Pentest Report – Full pentest of DVWA or Juice Shop, document findings professionally like a real report
+
 HACK THE PLANET
 
